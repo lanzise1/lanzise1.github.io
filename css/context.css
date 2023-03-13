@@ -1,0 +1,579 @@
+.contain {
+	top: -640px;
+	position: relative;
+	min-width: 1500px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.uner {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+
+/* 二维码 */
+.erweima {
+	background-color: brown;
+	height: 318px;
+	float: left;
+	width: 161px;
+	border: 4px gold solid;
+}
+
+.sl {
+	width: 119px;
+	height: 154px;
+	display: block;
+	background: url(../imge/year-btn.png) no-repeat;
+	background-size: 119px 154px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -735px;
+	z-index: 2;
+	overflow: hidden;
+	text-indent: -9999px;
+	font-size: 0;
+}
+
+
+/* 轮播 */
+
+.show {
+	width: 610px;
+	height: 100%;
+	background: #ccc;
+}
+
+
+.show>div {
+	position: absolute;
+	overflow: hidden;
+	width: 610px;
+	height: 325px;
+	float: left;
+	margin-left: 170px;
+}
+
+.show>a {
+	width: 610px;
+	height: 325px;
+	display: inline-block;
+}
+
+.show a img {
+	vertical-align: middle;
+	display: inline;
+	border: none;
+	overflow: hidden;
+	width: 610px;
+	height: 325px;
+	float: right;
+}
+
+
+.circle {
+	width: 200px;
+	height: 14px;
+	position: absolute;
+	/* bottom: 15px; */
+	/* left: 50%; */
+	margin-left: 592px;
+	text-align: center;
+	cursor: pointer;
+	top: 280px;
+}
+
+
+.circle b {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	margin: 3px;
+}
+
+.circle .current {
+	width: 20px;
+	background-color: orange;
+}
+
+/* 新闻 */
+.news {
+	height: 325px;
+	width: 425px;
+	background-color: white;
+	float: right;
+}
+
+.top-news {
+	height: 42px;
+	float: left;
+	position: absolute;
+}
+
+.top-news>p>a {
+	text-decoration: none;
+	font-size: 18px;
+	float: left;
+	display: block;
+	width: 65px;
+	height: 42px;
+	text-align: center;
+}
+
+.top-news>p>a:hover {
+	color: orange;
+}
+
+.list-news {
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+}
+
+.ti {
+	font-size: 14px;
+	margin-left: 20px;
+	float: left;
+}
+
+.list-news>p {
+	line-height: 18px;
+}
+
+.list-news>p>a {
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+.list-news>p>a:hover{
+	color: orange;
+}
+
+.fig {
+	font-size: 14px;
+	float: left;
+}
+
+/* 活动 */
+.active {
+	width: 1300px;
+	height: 180px;
+	min-width: 1300px;
+	float: left;
+}
+
+.active>a {
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+
+/* 攻略 */
+
+
+.option-m {
+	width: 1200px;
+	margin: 0 auto;
+	height: 500px;
+	position: relative;
+	top: -530px;
+}
+
+.left>ul>li>div>p>a,
+.right>ul>li>div>p>a {
+	text-decoration: none;
+	color: black;
+}
+
+.right>ul>li>div>p>a:hover {
+	color: orange;
+}
+
+.left>ul>li>div>p>a:hover {
+	color: orange;
+}
+
+.left>h3 {
+
+	width: 100px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 24px;
+	color: #24262d;
+	font-weight: bold;
+	position: relative;
+	padding-left: 34px;
+	float: left;
+	margin-top: 12px;
+}
+
+.left>h3::before {
+	background: url(../imge/sprites.png);
+	position: absolute;
+	display: inline-block;
+	content: '';
+	width: 26px;
+	height: 26px;
+	left: 0;
+}
+
+.top-lul {
+	font-size: 16px;
+	color: #000;
+	left: 150px;
+	top: -3px;
+	border-bottom: solid 1px #dedede;
+}
+
+.top-lul>li {
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0px 10px 3px 10px;
+	cursor: pointer;
+}
+
+.limg>a>img {
+	width: 212px;
+	height: 119px;
+}
+
+.option-m>.left {
+	width: 445px;
+	height: 466px;
+	float: left;
+}
+
+.lul {
+	display: none;
+	padding-left: 0px;
+	height: 410px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.cont-spr1 {
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 370px;
+	margin-top: -55px;
+}
+
+.lul>li {
+	display: inline-block;
+	float: left;
+	width: 212px;
+	height: 186px;
+	margin-bottom: 18px;
+	margin-right: 10px;
+}
+
+.mselect {
+	color: orange;
+	font-weight: 900;
+	border-bottom: gold 5px solid;
+}
+
+.top-lul>li:hover {
+	color: orange;
+	border-bottom: gold 5px solid;
+}
+
+.select {
+	display: block;
+}
+
+/* 右侧 */
+.right {
+	width: 725px;
+	height: 466px;
+	float: right;
+	position: relative;
+}
+
+.rimg>a>img {
+	width: 212px;
+	height: 119px;
+}
+
+.right>h3 {
+	width: 100px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 24px;
+	color: #24262d;
+	font-weight: bold;
+	position: relative;
+	padding-left: 34px;
+	float: left;
+	margin-top: 12px;
+}
+
+.right>h3::before {
+	background: url(../imge/sprites.png);
+	position: absolute;
+	display: inline-block;
+	content: '';
+	width: 26px;
+	height: 26px;
+	left: 0;
+	background-position: 86px 0px;
+}
+
+.top-rul {
+	font-size: 16px;
+	color: #000;
+	left: 150px;
+	top: -3px;
+	border-bottom: solid 1px #dedede;
+}
+
+.cont-spr {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}
+
+.top-rul>li {
+	margin-right: 50px;
+	display: inline-block;
+	height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0px 8px 9px 10px;
+	cursor: pointer;
+}
+
+/* .option-m .video-ul li.on::after */
+.top-lul li.mselect:after {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 6px;
+	background: url(../imge/sprites.png) no-repeat;
+	background-position: -195px -30px;
+	top: 25px;
+	left: 45%;
+	display: block;
+}
+
+.rul {
+	display: none;
+	padding-left: 0px;
+	height: 410px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.rul>li {
+	display: inline-block;
+	float: left;
+	width: 212px;
+	height: 186px;
+	margin-bottom: 18px;
+	margin-right: 29px;
+}
+
+.top-rul>li:hover {
+	color: orange;
+	border-bottom: gold 5px solid;
+}
+
+.rselect {
+	display: block;
+}
+
+/* 游戏特色 */
+#tes {
+	padding-top: 30px;
+	width: 100%;
+	height: 800px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tese {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.tese>h3 {
+	position: absolute;
+	left: 15px;
+	top: -80px;
+	/* height: 40px; */
+	width: 200px;
+	font-size: 24px;
+	/* display: block; */
+	font-weight: bold;
+	/* line-height: 40px; */
+	color: black;
+
+}
+
+.down {
+	margin-top: 60px;
+}
+
+.tese>h3::before {
+	position: relative;
+	background: url(../imge/sprites.png);
+	display: inline-block;
+	content: '';
+	width: 26px;
+	height: 26px;
+	left: -10px;
+	top: 4px;
+	background-position: 86px 0px;
+}
+
+.down {
+	width: 100%;
+	height: 620px;
+	/* overflow: hidden; */
+}
+
+.down>.pht>div {
+	display: block;
+	list-style: none;
+	position: absolute;
+	overflow: hidden;
+	height: 620px;
+	float: right;
+}
+
+/* .show>ul a {
+	width: 600px;
+	height: 325px;
+	display: inline-block;
+} */
+.pht {
+	position: relative;
+}
+
+.down>.pht>img {
+	vertical-align: middle;
+	display: inline;
+	border: none;
+	overflow: hidden;
+	float: right;
+}
+
+.bleft {
+	position: absolute;
+
+	/* position: absolute; */
+	margin-top: 20%;
+	width: 80px;
+	height: 80px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	/* line-height: 300px; */
+	padding-top: 35px;
+	cursor: pointer;
+
+}
+
+.bright {
+	position: absolute;
+	z-index: 9;
+	margin-top: 20%;
+	margin-left: 93.5%;
+	/* float: right; */
+	/* top: 2070px; */
+	width: 80px;
+	height: 80px;
+	background: rgba(0, 0, 0, 0.5);
+	/* left: 420px; */
+	text-align: center;
+	/* line-height: 300px; */
+	cursor: pointer;
+	padding-top: 35px;
+}
+
+/* foot */
+.foot {
+	width: 100%;
+	height: 460px;
+	background: url(../imge/footbg.webp) no-repeat center/cover;
+	box-sizing: border-box;
+	padding: 60px 0;
+}
+
+.foot-c {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.foot-c>li:first-child {
+	margin-left: 340px;
+}
+
+.foot-c>li:nth-child(3) {
+	margin-right: 155px;
+}
+
+.foot-c>li {
+	list-style: none;
+	width: 110px;
+	float: left;
+	text-align: center;
+	color: #999ea6;
+	font-size: 18px;
+	position: relative;
+	margin: 0 45px 45px;
+}
+
+.foot-c>li>i {
+
+	width: 67px;
+	height: 67px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+
+.yci {
+	width: 67px;
+	height: 67px;
+	display: block;
+	text-indent: -9999px;
+	/* margin: 0 auto; */
+	position: absolute;
+	left: 21px;
+	top: 0px;
+	/* background-color: red; */
+	/* background: url(../imge/weixin_pc_on.png) repeat fixed center; */
+}
+
+.foot-c>li>div {
+	width: 136px;
+	height: 146px;
+	position: absolute;
+	top: -160px;
+	left: 50%;
+	margin-left: -75px;
+	box-sizing: border-box;
+	padding: 8px 8px 0 8px;
+	/* opacity: 0; */
+	pointer-events: none;
+	transition: 600ms;
+	z-index: 99;
+}
+
+.foot-c>li>div>img {
+	width: 136px;
+	height: 146px;
+}
+
+.fontcolor {
+	color: orange;
+	transition: all 0.2s linear;
+}
